@@ -128,7 +128,8 @@ first_model <-
 
 modelsummary::modelsummary(
   list(
-    "First model" = first_model
+    "Length and Height" = first_model,
+    "Length Only" = second_model
   ),
   statistic = "mad",
   fmt = 2
